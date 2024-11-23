@@ -1,0 +1,53 @@
+/* Resetando margens e paddings para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Personalizando o header */
+header {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Personalizando o formulário */
+form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Personalizando o footer */
+footer {
+    background-color: #222;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
